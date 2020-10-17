@@ -1,0 +1,291 @@
+/* This is exist css */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#root {
+  margin: 0;
+}
+
+.paiedList {
+  border: 1px solid gray;
+}
+
+body {
+  background: #ffb4b4;
+  font-family: "Baloo Tammudu 2", cursive;
+  /* position: relative; */
+  top: 10px;
+}
+/* footer */
+footer {
+  color: gray;
+  text-align: center;
+  background: #2a566b;
+  width: 100%;
+}
+
+/* welcome page */
+
+.App-header {
+  text-align: center;
+}
+
+.sign_in {
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+}
+
+.header_img {
+  position: relative;
+  left: -2px;
+}
+.welcome {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -16px;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.btnPatient,
+.btnDoctor {
+  /* font-family: "Baloo Tammudu 2", cursive; */
+  padding: 15px;
+  color: white;
+  background: #2a566b;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  border: none;
+  /* transition: background-color 2s; */
+  transition: all 1s;
+  box-shadow: 2px 6px 6px rgb(164, 163, 163);
+}
+
+.btnDoctor:hover {
+  cursor: pointer;
+  /* font-size: 30px; */
+  /* color: #2a566b; */
+  opacity: 0.6;
+  /* font-weight: bolder; */
+}
+
+.btnPatient:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  /* font-weight: bolder; */
+  /* font-size: 30px; */
+  /* color: #2a566b; */
+}
+
+.btnDoctor p {
+  font-size: 20px;
+  /* margin-top: 0; */
+  margin-bottom: 10px;
+}
+
+.btnPatient p {
+  font-size: 19px;
+  /* margin-top: ; */
+  margin-bottom: 10px;
+}
+
+.btnlogo {
+  width: 40px;
+  position: relative;
+  left: 9px;
+  margin-top: 10px;
+}
+
+/* Patient unpaid Page */
+.patinet_h1 {
+  color: #2a566b;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+.welcome_greeting {
+  text-align: center;
+}
+
+.header_logo_container {
+  margin: 0 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.patient_container p {
+  color: gray;
+  margin: 0 0 30px 0;
+}
+
+.unPaidCard {
+  background: white;
+  border-radius: 12px;
+  padding: 0 20px;
+  color: gray;
+  margin: 15px;
+  box-shadow: 2px 6px 8px rgb(164, 163, 163);
+}
+
+.unPaidCard h1 {
+  color: #2a566b;
+  font-weight: bold;
+  margin: 0;
+}
+
+.PaidCard {
+  border-radius: 12px;
+  background: #d6e0f0;
+  padding: 0 20px;
+  color: white;
+  margin: 15px;
+  box-shadow: 2px 6px 8px rgb(164, 163, 163);
+}
+
+.PaidCard p {
+  color: gray;
+}
+
+.PaidCard h1 {
+  color: #2a566b;
+}
+
+.card_hospital {
+  color: gray;
+}
+
+.card_logo {
+  position: relative;
+  top: 15px;
+}
+
+.card_checkout {
+  background: #2a566b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 10px 0;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+
+.card_checkout:hover {
+  opacity: 0.6;
+
+  /* padding: 17px; */
+}
+
+/* button component */
+.components_box {
+  display: flex;
+  justify-content: center;
+}
+
+.component_btn {
+  border: none;
+  background: #2a566b;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 0 8px;
+  box-shadow: 1px 3px 4px gray;
+}
+
+.unpaind_btn {
+  border: none;
+  background: white;
+  color: #2a566b;
+  font-weight: bold;
+  padding: 18px;
+  border-radius: 8px;
+  margin: 0 8px;
+  box-shadow: 1px 3px 4px gray;
+}
+.unpaind_btn:hover {
+  cursor: pointer;
+}
+
+.component_btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.paid_btn_components_img {
+  position: relative;
+  left: -6px;
+  top: 3px;
+}
+
+/* .paiedList */
+
+.checkImg {
+  position: relative;
+  top: 20px;
+}
+
+/* payment */
+.payment_btn {
+  padding: 12px 30px;
+  color: white;
+  background: #2a566b;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  border: none;
+  transition: all 1s;
+  box-shadow: 2px 6px 6px rgb(164, 163, 163);
+}
+
+.payment_btn:hover {
+  padding: 14px 32px;
+}
+
+.pay_p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.payment_pay_btn {
+  position: relative;
+  left: -3px;
+}
+
+.container_payment {
+  width: 70%;
+  background: white;
+  border-radius: 12px;
+  padding: 0 20px;
+  color: gray;
+  margin: 15px;
+  box-shadow: 2px 6px 8px rgb(164, 163, 163);
+  text-align: center;
+}
+
+.thankyou {
+  color: white;
+}
+
+.thankyou {
+  /* background: #2a566b; */
+  border-radius: 8px;
+  text-align: center;
+}

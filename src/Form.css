@@ -1,0 +1,116 @@
+html {
+  margin: 20px 5px;
+}
+
+.icon {
+  text-align: center;
+  margin: auto 30px;
+  /* position: relative; */
+}
+
+Form {
+  font-family: "Baloo Tammudu 2", cursive;
+  position: relative;
+  width: 50%;
+}
+
+.formContainer {
+  /* border: 1px solid gray; */
+  background: white;
+  border-radius: 12px;
+  padding: 20px 20px;
+  margin: 15px;
+  /* box-shadow: 2px 6px 8px reg; */
+  box-shadow: 2px 6px 8px grey;
+  background: white;
+  border-radius: 12px;
+  padding: 0 20px;
+  color: gray;
+  margin: 15px;
+  /* box-shadow: 2px 6px 8px rgb(164, 163, 163); */
+  text-align: -webkit-center;
+}
+
+label {
+  letter-spacing: 3px;
+  /* line-height: 25px; */
+}
+
+/*make a space between label and button*/
+.inLabel {
+  line-height: 1px;
+  color: black;
+}
+
+.formLogo {
+  font-size: xx-large;
+  color: #2a566b;
+  font-weight: bold;
+  margin: 10px 10px;
+}
+
+input {
+  width: 75%;
+}
+
+textarea {
+  width: 75%;
+  height: calc(1.3em * 5);
+  line-height: 1.5;
+}
+
+.formSubmitButton {
+  background: #2a566b;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  border: none;
+  /* transition: background-color 2s; */
+  transition: all 1s;
+  box-shadow: 2px 6px 6px rgb(164, 163, 163);
+}
+
+.formSubmitButtonDesign {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(buttontext, rgb(170, 170, 170));
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  /* text-shadow: none; */
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(74, 74, 74));
+  box-sizing: border-box;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+  border-image: initial;
+  background: #2a566b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 10px 0;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+
+.formSubmitButtonDesign:hover {
+  cursor: pointer;
+  padding: 20px;
+  font-size: 15px;
+  /* color: #2a566b; */
+  /* background-color: #fff; */
+  /* font-weight: bolder; */
+}
