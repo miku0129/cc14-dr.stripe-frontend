@@ -13,14 +13,7 @@
 
 ## Image of our app
 ### Home
-<img src="https://i.ibb.co/4gKh0zj/2020-09-25-180737.jpg" alt="image of app" title="app">
-
-### Patient page 
-<img src="https://i.ibb.co/HCcjF71/2020-09-25-180439.jpg" alt="image of app" title="app">
-
-### Doctor page 
-<img src="https://i.ibb.co/SfCqzBj/2020-09-25-180621.jpg" alt="image of app" title="app">
-
+<img src="https://ibb.co/Z1Rrr62" alt="image of app" title="app">
 
 ## Features  
 ### 1. Pay medical fees contact-free on mobile.
