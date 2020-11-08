@@ -32,6 +32,10 @@
 **NOTE:** This is the frontend repository of this app. For the backend, please go to 
 ### https://github.com/ryutamura/dr.stripe-backend
 
+## Media 
+
+https://youtu.be/Dpteknue6mE
+
 ## Author 
 ### Tanner Haberl 
 ### Ryu Tamura
