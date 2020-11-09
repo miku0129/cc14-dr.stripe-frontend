@@ -33,13 +33,9 @@ https://github.com/ryutamura/dr.stripe-backend
 ## Author 
 
 Tanner Haberl - Tech lead 
-
 Ryu Tamura - Frontend 
-
 Akina Ohira - Frontend
-
 Hyongguk Hong - Backend
-
 Miku Sano - Backend 
 
 *This was developed during my time as a student at Code Chrysalis.* 
